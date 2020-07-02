@@ -64,7 +64,7 @@ def dedisp_cpu(data, dms, freqs):
     :param dms: array of DMs to dedisperse to
     :param freqs: Frequency of each channel
     :return: DM-time data
-#     """
+    """
     # data.shape = nfreq, ntime
     # output shape = ndm, ntime
     nfreq, ntime = data.shape
